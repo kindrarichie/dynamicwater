@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/sign-up.css">
+</head>
+<body class="sign-up sign-page">
+	<header class="top-bar header">
+		<nav class="clearfix">
+			<div class="header-profile top-profile">
+				<div class="profile-img display-inline">
+					<img src="assets/image/por.png" alt="">
+					<img src="assets/image/address.png" alt="" class="cover-profile-img">
+				</div>
+				<div class="profile-desc display-inline">
+					<h2>Richie & Group Member Inc.</h2>
+					<p>Kindra Richie, CEO</p>
+					<p class="m-0"><a href="mailto:Kindra@RichieGroupMember.com">Kindra@RichieGroupMember.com</a></p>
+				</div>
+			</div>
+			<div class="nav">
+				<ol class="nav-bar display-inline">
+					<li class="nav-item dropdown">
+					    <a class="" href="#">
+					        Links
+					        <i class="fas fa-caret-down"></i>
+					    </a>
+					    <ol class="dropdown-menu">
+					        <li><a class="dropdown-item active" href="sign-up.html">Sign up</a></li>
+					        <li><a class="dropdown-item" href="privacy.html">Privacy Aggrement</a></li>
+					        <li><a class="dropdown-item" href="about.html">About us</a></li>
+					    </ol>
+				    </li>
+				</ol>
+				<div class="header-search display-inline">
+					<form action="http://www.google.com/search" method="GET">
+						<div class="form-check display-block">
+							<input class="form-check-input" type="radio" name="header-radio" id="headerRadios1" value="option1" checked>
+							<label class="form-check-label" for="headerRadios1">
+								Search the web
+						  	</label>
+						</div>
+						<div class="form-check display-block">
+						  	<input class="form-check-input" type="radio" name="header-radio" id="headerRadios2" value="option2">
+						  	<label class="form-check-label" for="headerRadios2">
+						    	Search within the website
+						  	</label>
+						</div>
+						<div class="form-group display-inline">
+					      	<input type="text" class="form-control" id="search_q" name="q" placeholder="&#xf015;" style="font-family:FontAwesome">
+					  	</div>
+					  	<button type="submit" class="btn btn-grey">Search</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<article class="text-center">
+		
+		<div class="signup-form">
+			<h2>Sign up today to receive updates</h2>
+			<form action="http://www.deitel.com" method="POST">
+				<div class="row">
+					<div class="form-group w-50 text-left">
+					    <label for="exampleInputEmail1">First Name</label>
+					    <input type="text" class="form-control" placeholder="First Name">
+					</div>
+					<div class="form-group w-50 text-left">
+					    <label for="exampleInputEmail1">Last Name</label>
+					    <input type="text" class="form-control" placeholder="Last Name">
+					</div>
+				</div>
+				<div class="form-group text-left">
+				    <label for="exampleInputEmail1">Email</label>
+				    <input type="email" class="form-control" placeholder="Email" autocomplete="off">
+				</div>
+				<div class="row">
+					<div class="form-group w-50 text-left">
+					    <label for="exampleInputEmail1">Password</label>
+					    <input type="password" class="form-control" placeholder="Password">
+					</div>
+					<div class="form-group w-50 text-left">
+					    <label for="exampleInputEmail1">Re-enter Password</label>
+					    <input type="password" class="form-control" placeholder="Re-enter Password">
+					</div>
+				</div>
+				<div class="row">
+					<div class="form-group w-50 text-left">
+					    <label for="exampleInputEmail1">Dob</label>
+					    <input type="date" class="form-control" placeholder="Password" value="1998-01-01">
+					</div>
+					<div class="form-group w-50 text-left">
+					    <label for="exampleInputEmail1">Major</label>
+					    <input class="form-control" list="browsers" name="browser">
+					    <datalist id="browsers">
+					        <option value="Civil Engineering">
+					        <option value="Computer Engineering">
+					        <option value="Computer Information Technology">
+					        <option value="Computer Science">
+					        <option value="Electrical Engineering">
+					        <option value="Engineering Management">
+					        <option value="Manufacturing Systems Engineering">
+					        <option value="Mechanical Engineering">
+					    </datalist>
+					</div>
+				</div>
+				<div class="row">
+					<div class="form-group w-50 text-left">
+					    <label for="exampleInputEmail1">Your favorite color</label>
+					    <input type="color" class="form-control" placeholder="Color">
+					</div>
+					<div class="form-group w-50 text-left">
+					    <label for="exampleFormControlSelect1">Number of years in college</label>
+				        <select class="form-control" id="exampleFormControlSelect1">
+				          <option>1</option>
+				          <option>2</option>
+				          <option>3</option>
+				          <option>4</option>
+				          <option>5</option>
+				        </select>
+					</div>
+				</div>
+				<div class="row">
+					<div class="form-group w-50 text-left">
+					    <label for="exampleInputEmail1">Phone</label>
+					    <input type="tel" class="form-control" placeholder="###-###-####" autocomplete="off">
+					</div>
+					<div class="form-group w-50 text-left">
+					    <label for="exampleInputEmail1">Link to your homepage</label>
+					    <input type="url" class="form-control" placeholder="https://example.com"  autocomplete="off" novalidate>
+					</div>
+				</div>
+				<div class="row">
+					<div class="form-group w-50 text-left">
+					    <label for="exampleFormControlSelect1">Years of experience</label>
+				        <select class="form-control" id="exampleFormControlSelect1">
+				          <option>0-5</option>
+				          <option>5-10</option>
+				          <option>10-15</option>
+				          <option>15-20</option>
+				          <option>20+</option>
+				        </select>
+					</div>
+					<div class="form-group w-50 text-left">
+					    <label for="exampleFormControlSelect1">Skill level in <….></label>
+				        <select class="form-control" id="exampleFormControlSelect1">
+				          <option>1</option>
+				          <option>2</option>
+				          <option>3</option>
+				          <option>4</option>
+				          <option>5</option>
+				          <option>6</option>
+				          <option>7</option>
+				          <option>8</option>
+				          <option>9</option>
+				          <option>10</option>
+				        </select>
+					</div>
+				</div>
+				<div class="form-group text-left">
+					<label for="exampleFormControlSelect1">Contact Preference</label>
+					<div class="form-check display-block">
+					  	<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+					  	<label class="form-check-label" for="inlineCheckbox1">I would like to receive emails about new products and offers </label>
+					</div>
+					<div class="form-check display-block">
+					  	<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+					  	<label class="form-check-label" for="inlineCheckbox2">I would like to receive emails about my account and membership </label>
+					</div>
+					<div class="form-check display-block">
+					  	<input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+					  	<label class="form-check-label" for="inlineCheckbox3">I would like to receive mail </label>
+					</div>
+				</div>
+				<div class="row justify-center">
+					<button type="reset" class="btn btn-red mr-40">Reset</button>
+					<button type="submit" class="btn btn-blue">Sign Up</button>
+				</div>
+			</form>
+		</div>
+	</article>
+	
+	<footer class="footer">
+		<div class="bottom-bar clearfix">
+			<div class="footer-profile top-profile">
+				<div class="profile-img display-inline">
+					<img src="assets/image/por1.png" alt="" width="120">
+					<!-- <img src="assets/image/address.png" alt="" class="cover-profile-img"> -->
+				</div>
+				<div class="profile-desc display-inline">
+					<h2>Jones&Smith Inc.</h2>
+					<p>John Smith, CEO</p>
+					<p class="m-0"><a href="mailto:John@JonesnSmith.com">John@JonesnSmith.com</a></p>
+				</div>
+			</div>
+
+			<div class="nav">
+				<address>
+					Contact us at: <a href="mailto:webmaster@example.com">email@email.com</a>.<br> 
+					Visit us at: Example.com<br>
+					Box 564, Disneyland USA<br>
+					Phone: <a href="tel:+18506484200">850-648-4200</a>
+				</address>
+			</div>
+		</div>
+		
+		<div class="hr"></div>
+
+		<div class="copyright text-center">
+			<a href="privacy.html">&copy; …., INC. ALL Rights Reserved</a>
+		</div>
+	</footer>
+</body>
+</html>
