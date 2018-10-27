@@ -1,0 +1,35 @@
+.about-text {
+	width: 30%;
+	margin: auto;
+}
+.about-text p {
+	height: 150px;
+	margin: 2em;
+	overflow-y: scroll;
+}
+.about-text p:first-child{
+	padding: 2em;
+}
+.about-text p:nth-child(2) {
+	overflow: hidden;
+}
+.collapse-section {
+	padding: 15px;
+}
+.collapse-section summary {
+	outline: none;
+}
+.collapse-section p{
+	padding: 1em;
+}
+.about-contact {
+	margin-bottom: 40px;
+	padding: 0 15px;
+}
+.highlightme:hover { background-color:#FFFF00; }
+
+@media screen and (max-width: 768px) {
+	.about-text {
+		width: 100%;
+	}
+}
